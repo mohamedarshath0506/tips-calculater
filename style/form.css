@@ -1,0 +1,33 @@
+/**
+*
+* form.css
+* @author- Arshath
+* @date- 13/11/2022
+*/
+.primay-btn {
+    font-family: 'Fragment Mono', monospace;
+    font-weight: unset;
+    padding: 10px 100px;
+    border: none;
+    border-radius: 5px;
+    color: #046B68;
+    background-color: #26C2AD;
+}
+.btn-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 87px 0 28px;
+}
+.input-content {
+    padding: 16px 0 0;
+}
+.input-content input {
+    width: 270px;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: end;
+    padding: 3px;
+    border: none;
+    color: #153C37;
+    background-color: #F3F8FB;
+}

@@ -1,0 +1,84 @@
+/**
+*
+* style.css
+* @author- Arshath
+* @date- 13/11/2022
+*/
+.container {
+    max-width: 500px;
+    margin: 100px auto 53px;
+}
+.heading {
+    font-size: 16px;
+    font-weight: 600;
+    flex-direction: column;
+    align-items: center;
+}
+.heading h3 {
+    margin: 0 0 10px;
+}
+.percentage {
+    padding: 10px 0 0;
+}
+.bill-container {
+    max-width: 620px;
+    padding: 0 20px 12px 36px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.tip-bill {
+    max-width: 150px;
+    line-height: 47px;
+}
+.item-1 {
+    font-size: 17px;
+    font-weight: 600;
+    border: none;
+    border-radius: 7px;
+    padding: 9px 0;
+    color: #046B68;
+    background-color: #27C3AE;
+}
+.item-2 {
+    font-size: 17px;
+    font-weight: 600;
+    border: none;
+    border-radius: 7px;
+    padding: 9px 0;
+    color: #DAEEEF;
+    background-color: #00474B;
+}
+.bill-content {
+    margin: 22px 0 10px;
+    border-radius: 10px;
+    color: #DAEEEF;
+    background-color: #00474B;
+}
+.bill {
+    padding: 40px 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.bill p {
+    margin: 0 0 2px;
+}
+.bill span {
+    color: #4a8186f2;
+}
+.bill-total {
+    padding: 0 30px 2px;
+    justify-content: space-between;
+    align-items: center;
+}
+.bill-total p {
+    margin: 0 0 2px;
+}
+.bill-total span {
+    color: #4a8186f2;
+}
+.total {
+    font-size: 34px;
+    font-weight: 600;
+    color: #34BEAE;
+}

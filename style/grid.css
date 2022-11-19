@@ -1,0 +1,18 @@
+/**
+*
+* grid.css
+* @author- Arshath
+* @date- 13/11/2022
+*/
+.grid-1 {
+    display: grid;
+    grid-template-columns: 85px 85px 85px;
+    text-align: center;
+    row-gap: 10px;
+    column-gap: 10px;
+} 
+.grid-2 {
+    display: grid;
+    grid-template-columns: 312px 300px;
+}
+

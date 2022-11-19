@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Character-counter-2</title>
+    <link rel="stylesheet" href="./style/index.css"/>
+</head>
+<body>
+    <div class="heading container h-center">
+        <h3>TIPS </h3>
+        <h3>CALCULATOR</h3>
+    </div>
+        <section class="bill-container grid-2">
+            <div class="tip-bill">
+                <div class="input-content column">
+                    <label>Bill</label>
+                    <input type="text" id="bill-input" onkeyup="onkey()"/>
+                </div>
+                <div class="input-content column">
+                    <label>Number of people</label>
+                    <input type="text" id="peason" onkeyup="onkey()"/>
+                </div>
+            </div>
+            <div class="bill-content">
+                <div class="bill row">
+                    <div>
+                        <p>Tip Amount</p>
+                        <span>/ person</span>
+                    </div>
+                    <p id="amount" class="total">$</p>
+                </div>
+                <div class="bill-total row">
+                    <div>
+                        <p>Total</p>
+                        <span>/ person</span>
+                    </div>
+                    <p id="total-amount" class="total" onkeyup="onkey()">$</p>
+                </div>
+                <div class="btn-container">
+                    <button class="primay-btn" onclick="unCheck()">RESET</button>
+                </div>
+            </div>
+        </section>
+    <script src="./script/script.js"></script>
+</body>
+</html>
